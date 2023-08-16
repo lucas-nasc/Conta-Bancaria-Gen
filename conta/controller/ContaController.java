@@ -50,7 +50,7 @@ public class ContaController implements ContaRepository {
 
         if (buscaConta != null){
             listaContas.set(listaContas.indexOf(buscaConta),conta);
-            System.out.println("\nA conta numero: " + conta.getNumero() + "não foi encontrada!");
+            System.out.println("\nA conta numero: " + conta.getNumero() + " foi encontrada!");
 
         }else
             System.out.println("\nA conta numero: " + conta.getNumero() + "não foi encontrada!");
